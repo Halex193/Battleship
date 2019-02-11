@@ -1,4 +1,4 @@
-from src.model import Board
+from model import Board
 
 class CoordinateInvalid(RuntimeError):
     pass

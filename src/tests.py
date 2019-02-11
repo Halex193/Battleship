@@ -1,8 +1,8 @@
 from unittest import TestCase
 
-from src.controller import GameController
-from src.repository import ShipRepository, BoardRepository
-from src.validation import CoordinateInvalid, Validator
+from controller import GameController
+from repository import ShipRepository, BoardRepository
+from validation import CoordinateInvalid, Validator
 
 
 class TestBattleShips(TestCase):

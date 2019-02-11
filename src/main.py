@@ -1,5 +1,5 @@
 # Udrea Horațiu 917
-from src import ui, controller, repository
+import ui, controller, repository
 
 shipRepository = repository.ShipRepository()
 boardRepository = repository.BoardRepository()

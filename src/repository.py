@@ -1,4 +1,4 @@
-from src.model import Ship, Board
+from model import Ship, Board
 
 
 class ShipRepository(object):

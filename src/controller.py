@@ -2,9 +2,9 @@ import random
 
 from texttable import Texttable
 
-from src.model import Ship, Board
-from src.repository import ShipRepository, BoardRepository
-from src.validation import Validator, CoordinateInvalid
+from model import Ship, Board
+from repository import ShipRepository, BoardRepository
+from validation import Validator, CoordinateInvalid
 
 
 class NotEnoughShips(RuntimeError):

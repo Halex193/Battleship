@@ -1,7 +1,7 @@
 import os
 
-from src.controller import GameController, NotEnoughShips
-from src.validation import CoordinateInvalid
+from controller import GameController, NotEnoughShips
+from validation import CoordinateInvalid
 
 
 class ConsoleUI:
